@@ -1,0 +1,71 @@
+1. An Operating System (OS) is a) a program that allows the user to do specific tasks, b) a word processor, c) a program that allows the user to interact with 
+the computer and its componets or d) none of the previous answers are correct.
+
+c
+
+2. A Linux distribution is a) the kernel of the OS, a program for the installation and a choice of different applications, b) the kernel of the OS, 
+a graphic enviroment and a choice of different applications or c) the two previous answers are correct.
+
+a
+
+3. Name a) any Linux distribution good in graphics and  3D games and b) any Linux distribution with preinstalled servers.
+
+a)SKETSHUP, Sabayon
+b)Sabayon
+
+4.  a) Which are the top 10 most popular Linux distributions in the last month? b) and in the last year?
+
+a)
+1.Ubuntu
+2.Linux Mint
+3.Debian
+4.Fedora
+5.CebtOS/RedHat
+6.openSUSE / SUSE Linux Enterprise
+7.Mageia / Mandriva
+8.Arch Linux
+9.Slackware Linux
+10.Puppy Linux
+
+b)
+
+	2015		2016
+1	Linux Mint	Linux Mint
+2	Debian		Ubuntu
+3	Ubuntu		Debian
+4	openSUSE	openSUSE
+5	Fedora		Fedora
+6	Mageia		Mageia
+7	Manjaro		Arch
+8	CentOS		Elementary
+9	Arch		CentOS
+10	Elementary	Zorin
+
+5. a) Who programmed the first Linux version?, b) with what goal?
+
+a) Linus Torvalds
+
+b) Se creo un sistema operativo con propositos educacionales.Empezo a modificar 
+
+
+6. In order to execute Linux commands in a remote machine you need to install Linux in your local machine beforehand. a) True b) False.
+
+falso, ya que podemos utilizal kernel
+
+7. a) Was the first Linux version hardware-dependent or could it work on any machine? b) Is it the same nowadays?
+
+386 ...
+
+8. The Linux mascot is called a) Tuxedo, b) Tux, c) Pingu, or d) all of the above.
+
+tux
+
+9. Who was the artist responsible for drawing the first version of the Linux mascot?
+
+Larry Ewing
+
+10. Name three light Linux distributions (with light hardware requirements) that can be installed on a memory stick.
+
+arm, lxle, point linux, porteus
+
+ubuntu

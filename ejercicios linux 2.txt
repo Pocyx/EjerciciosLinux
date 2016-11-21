@@ -1,0 +1,99 @@
+EXERCISES OF CHAPTER 2. FILES AND DIRECTORIES (PART I) The answers to the exercises can be found at the end. Exercises are rated according to their level of difficulty:
+Easy Medium Dificult.
+
+1. In which directory are the configuration files of the system? 
+
+	/ect
+
+2. To login to a Linux system requires a) user name, password and IP address, b) username and password c) only a password.
+In the following exercises you should use the required Linux commands to perform the operations described.
+
+	only password
+
+3. Display the content of the current directory. 
+
+	ls
+
+4. Display the contents of the directory which is just at an upper level.
+
+	ls ../
+
+5.  In wich day of the week you were born?, use the cal command to find it out.
+
+	date
+
+6. Display the files in the /bin directory.
+
+	ls /usr/bin
+
+7. Assuming you are in your home directory (/home/username), display the contents of the /usr/bin directory a) with just one command line, 
+b) moving step by step through the directory tree and c) with two command lines.
+
+	a) ls /usr/bin        b) cd home | cd / | cd /usr/bin  |  ls 		c) cd /usr/bin  |  ls
+
+
+8. Display all the files in the /etc directory and all the files in the subdirectories recursively (with just a one-line command).
+
+	ls -r /etc
+
+9. Display all the files in the /usr/bin/X11 directory ordered by size (from highest to lowest). Only the name of each file must be shown, 
+without any other additional information.
+
+	du -s /usr/bin/X11/* | sort -n -r
+
+10. Show all the files in the /etc directory ordered by size (from highest to lowest) together with other characteristics, 
+i.e. permissions, size, date of last modification, etc. The size of each file should appear in a "readable" format, expressed in Kb, Mb, etc.
+
+11. Show all the files in the /bin directory ordered by size (from lowest to highest). Only the name and the size of each file must be shown, 
+without any other additional
+  
+                                                                         
+12. Show the contents of the root directory using an absolute path as an argument of the ls command.
+
+	ls /root
+
+13. Show the contents of the root directory using a relative path as an argument of the ls command. Assume that the current directory is /home/elena/documents.
+
+	cd elena  |  cd home  |  cd /  |  ls root
+
+14. Create the directory expenses inside the home directory.
+
+	mkdir directorio
+
+15. What happens if you try to create a directory inside /etc?
+
+	Que no te deja si no eres super usuario ya que tiene permisos especiales.
+
+16. Display the contents of the /etc/fstab file. 
+
+	cat /etc/fstab 
+
+17. Display the first 10 lines of the /etc/bash.bashrc  file.
+
+	head /etc/fstab	
+
+18. Create the following directory structure inside your home directory: multimedia 
+
+	mkdir /home/multimedia
+                                                                                   |                                                                                                      |                     |                     |                      |                                               music           pictures           video             slides                                                                         |                                                                 -------------                                                                 |                 |                                                           personal      other
+19. Create an empty file inside the music directory named favourite_styles.txt
+
+	touch /home/usuario/favourite_styles.txt
+
+20. Use your favourite text editor to edit favourite_styles.txt, then type in the music styles you like most. Save the changes and exit.
+
+	nano favourite_styles.txt
+
+21. Display the contents of the file favourite_styles.txt.
+
+	cat favourite_styles.txt
+
+22. Show the first 3 lines of the file favourite_styles.txt.
+
+	head -3l favourite_styles.txt
+
+23.  Show the last line of the file favourite_styles.txt.
+
+	tail favourite_styles.txt
+
+24. Show the content of the file favourite_styles.txt excluding the first line. Assume that the exact number of lines in the file is unknown.
